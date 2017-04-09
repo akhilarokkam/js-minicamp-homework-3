@@ -23,7 +23,6 @@ function addProperty(object, property) {
   //note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
   object[property] = null;
   return object;
-
 }
 
 function invokeMethod(object, method) {
@@ -31,7 +30,6 @@ function invokeMethod(object, method) {
   //invoke this method
   //nothing needs to be returned
   object[method]();
-
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
@@ -39,7 +37,6 @@ function multiplyMysteryNumberByFive(mysteryNumberObject) {
   //multiply the mysteryNumber property by 5 and return the product
   var product = mysteryNumberObject.mysteryNumber * 5;
   return product;
-
 }
 
 function deleteProperty(object, property) {
@@ -80,8 +77,6 @@ function hasProperty(object, property) {
   }
   else
   return false;
-
-
 }
 
 function verifyPassword(user, password) {
@@ -135,7 +130,6 @@ function sumUserPostLikes(user) {
     sum = sum + user.posts[i].likes;
   }
   return sum;
-
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
